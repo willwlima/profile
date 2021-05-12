@@ -69,9 +69,10 @@
   font-weight: 500;
   color: #31344b;
   margin: 10px 0 5px 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 .wrapper .about{
-  color: #44476a;
+  color: #31344b;
   font-weight: 400;
   font-size: 16px;
 }
@@ -136,13 +137,14 @@
   width: 90%;
   background: #e0e6eb;
   margin: 0;
-  top: 60%;
+  top: 62%;
 }
 
 .about-me p{
   position: relative;
   width: 100%;
   top: 20px;
+  right: 10px;
   border: none;
   outline: none;
   padding: 12px 0;

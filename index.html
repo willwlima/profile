@@ -1,89 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/39961995d0.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/39961995d0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/wrapper.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="img-area">
-        <div class="inner-area">
-          <img src="img/eu.jpeg" alt="" />
-        </div>
-      </div>
-      <div class="icon arrow"><i class="fas fa-rocket"></i></div>
-      <!-- <div class="icon dots"><i class="fas fa-ellipsis-v"></i></div> -->
-      <div class="name">William Lima</div>
-      <div class="about"><span class="typing"> </span></div>
-     <div class="feature"></div>
-      <div class="about-me">
-        <p>Formado em Gestão empresarial e atualmente cursando Análise e Desenvolvimento de sistemas. <br> Empresário à 10 anos e hoje me dedicando em outra area que sou apaixonado... a tecnologia!
-        </p>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="center">
+    <div class="ring"></div>
+    <span>^ <br> Press play</span>
+    <div class="container">
+      <div class="wrapper">
+        <a href="aboutMe.html">
+          <img src="img/eu.jpeg" alt="">
+        </a>
       </div>
     </div>
+  </div>
 
-    <div class="icons">
-      <a href="https://github.com/willwlima" target="_blank">
-        <div class="layer">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span class="fab fa-github"></span>
-        </div>
-        <div class="text">GitHub</div>
-      </a>
-      <a href="https://www.linkedin.com/in/wwlima/" target="_blank">
-        <div class="layer">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span class="fab fa-linkedin-in"></span>
-        </div>
-        <div class="text">Linkedin</div>
-      </a>
-      <a href="https://www.instagram.com/will.ahelm/" target="_blank">
-        <div class="layer">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span class="fab fa-instagram"></span>
-        </div>
-        <div class="text">Instagram</div>
-      </a>
-      <a href="https://twitter.com/will_ahelm" target="_blank">
-        <div class="layer">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span class="fab fa-twitter"></span>
-        </div>
-        <div class="text">Twitter</div>
-      </a>
-      <!-- <a href="#">
-        <div class="layer">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span class="fab fa-youtube"></span>
-        </div>
-        <div class="text">YouTube</div>
-      </a> -->
-    </div>
-    <script src="script.js"></script>
-  </body>
+  <script>
+    const img = document.querySelector("img");
+    img.onclick = function() {
+      this.classList.toggle("active");
+    }
+  </script>
+</body>
 </html>
