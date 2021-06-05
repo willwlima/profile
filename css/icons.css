@@ -88,10 +88,15 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.icons a:nth-child(4) .layer span,
+/* .icons a:nth-child(4) .layer span,
 .icons a:nth-child(4) .text {
   color: #1da1f2;
   border-color: #1da1f2;
+} */
+.icons a:nth-child(4) .layer span,
+.icons a:nth-child(4) .text {
+  color: #ceced1;
+  border-color: #ceced1;
 }
 .icons a:nth-child(5) .layer span,
 .icons a:nth-child(5) .text {

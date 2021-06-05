@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(13, 17, 23);
+}
+
+:root {
+  --font-company: 'Mate SC', serif;
+  --font-description: 'Roboto', sans-serif;
+}
+
+
+.container {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.container .card {
+  position: relative;
+  max-width: 200px;
+  height: 90px;
+  background:#ECF0F3;
+  margin: 30px 10px;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover {
+  height: 200px;
+}
+
+.container .card .imgBx {
+  position: relative;
+  width: 200px;
+  height: 140px;
+  top: -60px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container .card .imgBx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.container .card .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin: -40px;
+  transition-delay: 0.3s;
+}
+
+.container .card .content h2 {
+  font-family: var(--font-company);
+  font-size: 20px;
+
+}
+
+.container .card .content p {
+  font-family: var(--font-description);
+  font-size: 13px;
+  text-align: justify;
+  margin-left: 10px;
+}
