@@ -74,7 +74,7 @@ body {
   color: #2867b2;
   border-color: #2867b2;
 }
-.icons a:nth-child(3) .layer span,
+/* .icons a:nth-child(3) .layer span,
 .icons a:nth-child(3) .text {
   background: radial-gradient(
     circle at 30% 107%,
@@ -87,7 +87,7 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 /* .icons a:nth-child(4) .layer span,
 .icons a:nth-child(4) .text {
   color: #1da1f2;
